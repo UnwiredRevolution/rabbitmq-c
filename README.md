@@ -1,8 +1,8 @@
-# RabbitMQ C AMQP client library
+# RemoteLink RabbitMQ C AMQP client library
 
-[![Build Status](https://secure.travis-ci.org/alanxz/rabbitmq-c.png?branch=master)](http://travis-ci.org/alanxz/rabbitmq-c)
+This is a fork of the RabbitMQ C library for use with RemoteLink. This fork is based off the v0.11 release of the library, with modifications for use on the SCO operating system.
 
-[![Coverage Status](https://coveralls.io/repos/github/alanxz/rabbitmq-c/badge.svg?branch=master)](https://coveralls.io/github/alanxz/rabbitmq-c?branch=master)
+
 
 ## Introduction
 
