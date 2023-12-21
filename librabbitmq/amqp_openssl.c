@@ -319,7 +319,7 @@ static void amqp_ssl_socket_delete(void *base) {
   struct amqp_ssl_socket_t *self = (struct amqp_ssl_socket_t *)base;
 
   if (self) {
-    amqp_ssl_socket_close(self, AMQP_SC_NONE);
+    amqp_ssl_socket_close(self, AMQP_SC_FORCE);
 
     SSL_CTX_free(self->ctx);
     free(self);
